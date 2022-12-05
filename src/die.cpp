@@ -1,25 +1,17 @@
 //
 #include "die.h"
 #include<iostream>
-#include <string>
-#include <vector>
 
-using std::string;
-using std::vector;
 using std::cout;
 using std::cin;
 
 void die::roll()
 {
-
+    roll_value = rand()%sides+1;
 }
+
 int die::rolled_value()const
 {
-
-}
-
-int die::roll_value()
-{
-
+    return roll_value;
 }
 

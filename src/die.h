@@ -1,6 +1,5 @@
 //
-#include <string>
-#include <vector>
+
 #include<iostream>
 
 #ifndef DIE_H
@@ -13,17 +12,8 @@ class die
     int rolled_value()const;
 
     private:
-    int roll_value();
-    int sides{6};
-
-
-
-
-
-
-
-
-
+    int roll_value;
+    int sides = 6;
 
 };
 
